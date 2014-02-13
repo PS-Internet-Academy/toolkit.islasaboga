@@ -1,0 +1,878 @@
+/*Default Values for this theme*/
+/*Custom colors*/
+/*Fonts*/
+/* line 28, ../sass/screen.scss */
+body {
+  background-color: white;
+  min-width: 960px;
+  width: auto !important;
+  width: 960px;
+}
+
+/* line 33, ../sass/screen.scss */
+.global-wrapper {
+  border-top: 4px solid #4bbbc6;
+  font-family: "Droid Sans", Arial, sans-serif;
+  color: #898989;
+  /* Portlet styles */
+  /* Collection */
+  /* more carousel styles (content carousels) */
+}
+/* line 38, ../sass/screen.scss */
+.global-wrapper h1, .global-wrapper h2, .global-wrapper h3, .global-wrapper h4, .global-wrapper h5, .global-wrapper h6 {
+  color: #575757;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+/* line 44, ../sass/screen.scss */
+.global-wrapper h1, .global-wrapper h1 a, .global-wrapper h1 a:hover, .global-wrapper h1 a:link {
+  font-size: 16px;
+  font: "Open Sans", Verdana, sans-serif;
+  color: #575757 !important;
+  line-height: auto;
+}
+/* line 50, ../sass/screen.scss */
+.global-wrapper h1 {
+  height: 32px;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 12px;
+}
+/* line 55, ../sass/screen.scss */
+.global-wrapper h2, .global-wrapper h3 {
+  font-size: 14px;
+}
+/* line 58, ../sass/screen.scss */
+.global-wrapper h3 {
+  color: #4bbbc6;
+}
+/* line 62, ../sass/screen.scss */
+.global-wrapper #viewlet-below-content-title {
+  display: none;
+}
+/* line 66, ../sass/screen.scss */
+.global-wrapper .deco {
+  color: #4bbbc6 !important;
+}
+/* line 71, ../sass/screen.scss */
+.global-wrapper dl.portlet dt, .global-wrapper div.portletAssignments div.portletHeader,
+.global-wrapper #content dt {
+  background: none repeat scroll 0 0 transparent;
+  line-height: normal;
+  font-weight: 400;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e9e9;
+  text-transform: uppercase;
+  color: #4b4b4b;
+}
+/* line 86, ../sass/screen.scss */
+.global-wrapper .global-header {
+  background-color: #a7a7a7;
+  overflow: visible;
+  position: relative;
+  min-height: 120px;
+  border-bottom: 2px solid #4bbbc6;
+}
+/* line 93, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 98, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel {
+  margin: 0 auto;
+  height: 690px;
+}
+/* line 102, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable {
+  /*set default height*/
+  height: 690px;
+}
+/* line 105, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding {
+  margin: 0;
+}
+/* line 108, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+  width: 100%;
+  height: auto;
+}
+/* line 115, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.navi {
+  display: none;
+}
+/* line 118, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel a.prev {
+  left: 10%;
+}
+/* line 121, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel a.next {
+  right: 10%;
+}
+/* line 128, ../sass/screen.scss */
+.global-wrapper .global-header .headercarousel #portal-content-header img {
+  width: 100%;
+  height: auto;
+}
+/* line 135, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 960px;
+  margin-left: -480px;
+  overflow: visible;
+}
+/* line 143, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .globalnav {
+  text-align: right;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  display: block;
+  overflow: visible;
+  max-width: 810px;
+}
+/* line 154, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav {
+  background-color: transparent;
+  margin: 0;
+  display: block;
+  font-family: "Open Sans", Verdana, sans-serif;
+  /* submenu styles */
+  /* dev code*/
+}
+/* line 161, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li {
+  margin-left: 10px;
+}
+/* line 163, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li a, .global-wrapper .global-header .header-wrapper #portal-globalnav li a:active, .global-wrapper .global-header .header-wrapper #portal-globalnav li a:visited, .global-wrapper .global-header .header-wrapper #portal-globalnav li a:link, .global-wrapper .global-header .header-wrapper #portal-globalnav li a:hover {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 8px 15px;
+  background: none repeat scroll 0 0 transparent;
+  cursor: pointer;
+  border: 0 none transparent;
+  min-width: 55px;
+  width: auto !important;
+  width: 55px;
+  text-align: center;
+  border: 0 none transparent;
+}
+/* line 177, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li#portaltab-index_html {
+  margin-left: 0;
+}
+/* line 181, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li.selected, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover {
+  background-color: #e9ebf0;
+  /* background: transparent url('../images/submenu_bg.png') repeat scroll 0 0; */
+  border: 1px solid #f6f6f6;
+  border-bottom: 1px solid #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 191, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li.selected a, .global-wrapper .global-header .header-wrapper #portal-globalnav li.selected a:active, .global-wrapper .global-header .header-wrapper #portal-globalnav li.selected a:visited, .global-wrapper .global-header .header-wrapper #portal-globalnav li.selected a:link, .global-wrapper .global-header .header-wrapper #portal-globalnav li.selected a:hover, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover a, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover a:active, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover a:visited, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover a:link, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover a:hover {
+  color: #4bbbc6;
+}
+/* line 195, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li:hover {
+  border-bottom: 0 none transparent;
+}
+/* line 198, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li:hover .submenu {
+  display: block;
+}
+/* line 205, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu {
+  /* submenu without js: ul.submenu */
+  /* submenu with js helpers: div.submenu*/
+  z-index: 100;
+  background-color: #e9ebf0;
+  /* background: transparent url('../images/submenu_bg.png') repeat scroll 0 0; */
+  width: 300px;
+  top: 25px;
+  left: -1px;
+  position: absolute;
+  padding: 20px;
+  overflow: hidden;
+  font-family: "Droid Sans", Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-top: 1px solid #eeeff3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -webkit-box-shadow: 0 1px 2px #dadada;
+  -moz-box-shadow: 0 1px 2px #dadada;
+  box-shadow: 0 1px 2px #dadada;
+}
+/* line 226, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu li,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu li {
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  overflow: hidden;
+}
+/* line 232, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu li a,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu li a {
+  text-align: left;
+  font-size: 11px;
+  color: #727272 !important;
+  padding: 5px 0;
+  overflow: hidden;
+}
+/* line 239, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu li a img,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu li a img {
+  display: none;
+}
+/* line 243, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu li a:hover,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu li a:hover {
+  border: 0 none transparent !important;
+}
+/* line 247, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav ul.submenu li:hover,
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu li:hover {
+  border: 0 none transparent !important;
+}
+/* line 251, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu {
+  display: none;
+  padding: 20px 0;
+}
+/* line 255, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col {
+  float: left;
+  display: block;
+  overflow: hidden;
+  width: 31%;
+  padding: 0 8%;
+}
+/* line 262, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+/* line 269, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover {
+  border: 0 none transparent !important;
+}
+/* line 271, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover a, .global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover a:active, .global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover a:visited, .global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover a:link, .global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col li:hover a:hover {
+  color: #4bbbc6 !important;
+  border: 0 none transparent !important;
+}
+/* line 277, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav div.submenu ul.submenu_col.first {
+  border-right: 1px solid #f1f0f0;
+}
+/* line 290, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper #portal-globalnav li.last .submenu {
+  left: auto;
+  right: -1px;
+}
+/* line 295, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "Droid Sans", Arial, sans-serif;
+}
+/* line 303, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li {
+  background: #4bbbc6 url("../images/globe.png") no-repeat scroll 8px 2px;
+  display: block;
+  padding-left: 30px;
+  height: 25px;
+  text-align: center;
+  float: left;
+  min-width: 92px;
+  width: auto !important;
+  width: 92px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 313, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li a, .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li a:link, .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li a:active, .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li a:hover, .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li a:visited {
+  color: #fff !important;
+  font-size: 12px;
+}
+/* line 320, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li.currentLanguage {
+  display: none;
+}
+/* line 326, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet {
+  position: absolute;
+  top: 5px;
+  right: 140px;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-size: 12px;
+}
+/* line 334, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet a, .global-wrapper .global-header .header-wrapper .topnavi-viewlet a:link, .global-wrapper .global-header .header-wrapper .topnavi-viewlet a:active, .global-wrapper .global-header .header-wrapper .topnavi-viewlet a:visited, .global-wrapper .global-header .header-wrapper .topnavi-viewlet a:hover {
+  color: #e8e5e0;
+}
+/* line 337, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet li {
+  border-right: 1px solid #e8e5e0;
+  margin-right: 8px;
+  padding-right: 5px;
+}
+/* line 342, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet li img {
+  margin-right: 4px;
+}
+/* line 346, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet li:last-of-type {
+  border: 0 none transparent;
+  margin-right: 0;
+}
+/* line 351, ../sass/screen.scss */
+.global-wrapper .global-header .header-wrapper .topnavi-viewlet li.last {
+  border: 0 none transparent;
+  margin-right: 0;
+}
+/* line 360, ../sass/screen.scss */
+.global-wrapper #portal-breadcrumbs {
+  display: block;
+  height: 32px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #fff;
+}
+/* line 367, ../sass/screen.scss */
+.global-wrapper #portal-breadcrumbs #breadcrumbs-current {
+  color: #4bbbc6;
+}
+/* line 371, ../sass/screen.scss */
+.global-wrapper #portal-breadcrumbs .breadcrumb-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  float: none;
+  clear: both;
+  padding-top: 8px;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-size: 12px;
+  color: #686868;
+}
+/* line 381, ../sass/screen.scss */
+.global-wrapper #portal-breadcrumbs .breadcrumb-wrapper a, .global-wrapper #portal-breadcrumbs .breadcrumb-wrapper a:link, .global-wrapper #portal-breadcrumbs .breadcrumb-wrapper a:visited, .global-wrapper #portal-breadcrumbs .breadcrumb-wrapper a:active, .global-wrapper #portal-breadcrumbs .breadcrumb-wrapper a:hover {
+  color: #686868;
+}
+/* line 386, ../sass/screen.scss */
+.global-wrapper #content-wrapper {
+  background-color: white;
+  overflow: auto;
+  min-height: 50%;
+  height: auto !important;
+  height: 50%;
+  position: relative;
+  font-family: "Droid Sans", Arial, sans-serif;
+}
+/* line 394, ../sass/screen.scss */
+.global-wrapper #content-wrapper #portal-columns {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  float: none;
+  clear: both;
+}
+/* line 402, ../sass/screen.scss */
+.global-wrapper #content .documentDescription, .global-wrapper #content #description {
+  color: #898989;
+  font: 400 13px "Droid Sans", Arial, sans-serif;
+}
+/* line 407, ../sass/screen.scss */
+.global-wrapper #content .documentDescription {
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+/* line 413, ../sass/screen.scss */
+.global-wrapper #content {
+  font-size: 12px;
+}
+/* line 418, ../sass/screen.scss */
+.global-wrapper footer,
+.global-wrapper .footer-wrapper {
+  font-family: "Droid Sans", Arial, sans-serif;
+  background-color: #f8f7f4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f0), color-stop(100%, #fcfafb));
+  background-image: -webkit-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: -moz-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: -o-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: linear-gradient(#f5f5f0, #fcfafb);
+  border-top: 1px solid #e9e9e4;
+}
+/* line 424, ../sass/screen.scss */
+.global-wrapper footer #footer,
+.global-wrapper .footer-wrapper #footer {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 427, ../sass/screen.scss */
+.global-wrapper footer #doormat-container,
+.global-wrapper .footer-wrapper #doormat-container {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  font-size: 11px;
+  margin: 26px 0 5px;
+  width: 100%;
+  color: #6f6f6f;
+}
+/* line 435, ../sass/screen.scss */
+.global-wrapper footer #doormat-container a, .global-wrapper footer #doormat-container a:link, .global-wrapper footer #doormat-container a:visited, .global-wrapper footer #doormat-container a:hover, .global-wrapper footer #doormat-container a:active,
+.global-wrapper .footer-wrapper #doormat-container a,
+.global-wrapper .footer-wrapper #doormat-container a:link,
+.global-wrapper .footer-wrapper #doormat-container a:visited,
+.global-wrapper .footer-wrapper #doormat-container a:hover,
+.global-wrapper .footer-wrapper #doormat-container a:active {
+  cursor: pointer;
+  color: #6f6f6f;
+}
+/* line 440, ../sass/screen.scss */
+.global-wrapper footer #doormat-container a:hover,
+.global-wrapper .footer-wrapper #doormat-container a:hover {
+  color: #4bbbc6;
+}
+/* line 444, ../sass/screen.scss */
+.global-wrapper footer #doormat-container .doormatColumn,
+.global-wrapper .footer-wrapper #doormat-container .doormatColumn {
+  margin-right: 26px;
+}
+/* line 448, ../sass/screen.scss */
+.global-wrapper footer #doormat-container .doormatSectionHeader,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionHeader {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4c4c4c;
+  padding-bottom: 10px;
+  margin-bottom: 17px;
+  border-bottom: 2px solid #e5e3e0;
+  text-transform: uppercase;
+  padding-left: 3px;
+}
+/* line 459, ../sass/screen.scss */
+.global-wrapper footer #doormat-container .doormatSectionBody,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionBody {
+  padding-left: 5px;
+  line-height: 17px;
+}
+/* line 461, ../sass/screen.scss */
+.global-wrapper footer #doormat-container .doormatSectionBody ul, .global-wrapper footer #doormat-container .doormatSectionBody ol,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionBody ul,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionBody ol {
+  list-style: square inside none;
+}
+/* line 464, ../sass/screen.scss */
+.global-wrapper footer #doormat-container .doormatSectionBody ul li, .global-wrapper footer #doormat-container .doormatSectionBody ol li,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionBody ul li,
+.global-wrapper .footer-wrapper #doormat-container .doormatSectionBody ol li {
+  display: list-item;
+}
+/* line 473, ../sass/screen.scss */
+.global-wrapper footer #doormat-container.columns-5 .doormatColumn,
+.global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn {
+  width: 17.5%;
+  margin-left: 0;
+}
+/* line 477, ../sass/screen.scss */
+.global-wrapper footer #doormat-container.columns-5 .doormatColumn.column-4,
+.global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn.column-4 {
+  margin-right: 0;
+}
+/* line 481, ../sass/screen.scss */
+.global-wrapper footer #colophon,
+.global-wrapper .footer-wrapper #colophon {
+  color: #b1babf;
+  font-size: 12px;
+}
+/* line 485, ../sass/screen.scss */
+.global-wrapper footer #colophon a, .global-wrapper footer #colophon a:link, .global-wrapper footer #colophon a:active, .global-wrapper footer #colophon a:visited, .global-wrapper footer #colophon a:hover,
+.global-wrapper .footer-wrapper #colophon a,
+.global-wrapper .footer-wrapper #colophon a:link,
+.global-wrapper .footer-wrapper #colophon a:active,
+.global-wrapper .footer-wrapper #colophon a:visited,
+.global-wrapper .footer-wrapper #colophon a:hover {
+  color: #b1babf;
+  text-decoration: underline;
+}
+/* line 490, ../sass/screen.scss */
+.global-wrapper footer #colophon a:hover,
+.global-wrapper .footer-wrapper #colophon a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 498, ../sass/screen.scss */
+.global-wrapper #portal-personaltools {
+  background: none repeat scroll 0 0 transparent;
+}
+/* line 501, ../sass/screen.scss */
+.global-wrapper #portal-personaltools dd {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f0), color-stop(100%, #fcfafb));
+  background-image: -webkit-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: -moz-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: -o-linear-gradient(#f5f5f0, #fcfafb);
+  background-image: linear-gradient(#f5f5f0, #fcfafb);
+}
+/* line 504, ../sass/screen.scss */
+.global-wrapper #portal-personaltools #anon-personalbar a#personaltools-login {
+  color: #fff;
+}
+/* line 511, ../sass/screen.scss */
+.global-wrapper #portal-column-one,
+.global-wrapper #portal-column-two {
+  /* Navigation portlet*/
+  /* Collection Portlet */
+}
+/* line 512, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet,
+.global-wrapper #portal-column-two dl.portlet {
+  font-size: 12px;
+  color: #898989 !important;
+}
+/* line 517, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet a, .global-wrapper #portal-column-one dl.portlet a:link, .global-wrapper #portal-column-one dl.portlet a:active, .global-wrapper #portal-column-one dl.portlet a:hover, .global-wrapper #portal-column-one dl.portlet a:visited,
+.global-wrapper #portal-column-one dl.portlet a span,
+.global-wrapper #portal-column-two dl.portlet a,
+.global-wrapper #portal-column-two dl.portlet a:link,
+.global-wrapper #portal-column-two dl.portlet a:active,
+.global-wrapper #portal-column-two dl.portlet a:hover,
+.global-wrapper #portal-column-two dl.portlet a:visited,
+.global-wrapper #portal-column-two dl.portlet a span {
+  color: #898989 !important;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* line 522, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet a:hover,
+.global-wrapper #portal-column-two dl.portlet a:hover {
+  font-weight: bold;
+  color: #898989 !important;
+}
+/* line 529, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet .portletHeader a, .global-wrapper #portal-column-one dl.portlet .portletHeader a:link, .global-wrapper #portal-column-one dl.portlet .portletHeader a:active, .global-wrapper #portal-column-one dl.portlet .portletHeader a:hover, .global-wrapper #portal-column-one dl.portlet .portletHeader a:visited,
+.global-wrapper #portal-column-one dl.portlet .portletHeader a span,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a:link,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a:active,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a:hover,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a:visited,
+.global-wrapper #portal-column-two dl.portlet .portletHeader a span {
+  color: #4b4b4b !important;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* line 537, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet .portletItem,
+.global-wrapper #portal-column-two dl.portlet .portletItem {
+  padding-left: 3px;
+}
+/* line 539, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet .portletItem ul, .global-wrapper #portal-column-one dl.portlet .portletItem ol,
+.global-wrapper #portal-column-two dl.portlet .portletItem ul,
+.global-wrapper #portal-column-two dl.portlet .portletItem ol {
+  list-style: square inside none;
+}
+/* line 541, ../sass/screen.scss */
+.global-wrapper #portal-column-one dl.portlet .portletItem ul li, .global-wrapper #portal-column-one dl.portlet .portletItem ol li,
+.global-wrapper #portal-column-two dl.portlet .portletItem ul li,
+.global-wrapper #portal-column-two dl.portlet .portletItem ol li {
+  display: list-item;
+}
+/* line 548, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree,
+.global-wrapper #portal-column-two .portletNavigationTree {
+  background-color: #93d2db;
+  border: 7px solid #e6e4de;
+  color: #fff;
+  padding-bottom: 10px;
+}
+/* line 554, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul, .global-wrapper #portal-column-one .portletNavigationTree ol,
+.global-wrapper #portal-column-two .portletNavigationTree ul,
+.global-wrapper #portal-column-two .portletNavigationTree ol {
+  list-style: none outside none;
+}
+/* line 556, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul li, .global-wrapper #portal-column-one .portletNavigationTree ol li,
+.global-wrapper #portal-column-two .portletNavigationTree ul li,
+.global-wrapper #portal-column-two .portletNavigationTree ol li {
+  display: block;
+}
+/* line 561, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 {
+  list-style: none outside none;
+}
+/* line 563, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem {
+  border: 0 none transparent;
+  display: block;
+  padding: 6px 10px 6px 20px;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+/* line 572, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:link, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:active, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:hover, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:visited,
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a span,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:link,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:active,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:hover,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:visited,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a span {
+  color: #fff !important;
+  font-size: 12px;
+}
+/* line 576, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a img, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:link img, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:active img, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:hover img, .global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:visited img,
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a span img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:link img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:active img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:hover img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a:visited img,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTreeLevel0 li.navTreeItem a span img {
+  display: none;
+}
+/* line 584, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletNavigationTree ul.navTree .navTreeCurrentItem,
+.global-wrapper #portal-column-two .portletNavigationTree ul.navTree .navTreeCurrentItem {
+  background-color: transparent;
+  border-left: 0 none transparent;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+/* line 599, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletCollection,
+.global-wrapper #portal-column-two .portletCollection {
+  list-style: square inside none;
+}
+/* line 602, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletCollection dd.portletItem,
+.global-wrapper #portal-column-two .portletCollection dd.portletItem {
+  display: list-item;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+/* line 608, ../sass/screen.scss */
+.global-wrapper #portal-column-one .portletCollection dd.portletItem a.tile img,
+.global-wrapper #portal-column-two .portletCollection dd.portletItem a.tile img {
+  display: none;
+}
+/* line 619, ../sass/screen.scss */
+.global-wrapper #content a:link, .global-wrapper dl.portlet a:link,
+.global-wrapper a.link-plain {
+  border-bottom: 0 none transparent;
+  color: #4bbbc6;
+}
+/* line 624, ../sass/screen.scss */
+.global-wrapper #content a:hover, .global-wrapper dl.portlet a:hover,
+.global-wrapper a.link-plain:hover {
+  color: #4bbbc6 !important;
+  cursor: pointer;
+}
+/* line 628, ../sass/screen.scss */
+.global-wrapper a.link-plain {
+  color: #4bbbc6 !important;
+}
+/* line 632, ../sass/screen.scss */
+.global-wrapper div.managePortletsLink, .global-wrapper a.managePortletsFallback {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 0;
+  font-size: 90%;
+  margin: 0 auto 1em;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #4bbbc6 !important;
+  letter-spacing: -1px;
+}
+/* line 644, ../sass/screen.scss */
+.global-wrapper .carousel .toolBar {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+  font-size: 90%;
+  margin: 0 auto 1em;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #4bbbc6 !important;
+  letter-spacing: -1px;
+}
+/* line 660, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-image,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-image {
+  float: left;
+  clear: none;
+  margin-right: 25px;
+  border: 8px solid #e6e4de;
+}
+/* line 667, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-body,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body {
+  clear: none;
+  margin-left: 25px;
+}
+/* line 671, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline {
+  font-weight: 300;
+  font-family: "Open Sans", Verdana, sans-serif;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+/* line 677, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline a, .global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:link, .global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:hover, .global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:visited, .global-wrapper #content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:active,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline a,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:link,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:hover,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:visited,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body h1.tileHeadline a:active {
+  font-size: 20px;
+  color: #4bbbc6 !important;
+  font-family: "Open Sans", Verdana, sans-serif;
+  font-weight: 300;
+}
+/* line 685, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-body .carousel-description,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-body .carousel-description {
+  font-family: "Open Sans", Verdana, sans-serif;
+  color: #898989;
+  font-size: 12px;
+}
+/* line 693, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-footer,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+/* line 698, ../sass/screen.scss */
+.global-wrapper #content div.scrollable .carousel-item .carousel-footer a, .global-wrapper #content div.scrollable .carousel-item .carousel-footer a:link, .global-wrapper #content div.scrollable .carousel-item .carousel-footer a:hover, .global-wrapper #content div.scrollable .carousel-item .carousel-footer a:visited, .global-wrapper #content div.scrollable .carousel-item .carousel-footer a:active,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer a,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer a:link,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer a:hover,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer a:visited,
+.global-wrapper #viewlet-above-content div.scrollable .carousel-item .carousel-footer a:active {
+  color: #4bbbc6 !important;
+  text-transform: lowercase;
+  font-size: 11px;
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
+/* Special Styles for the "Sliding Frontpage" */
+/* line 710, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper {
+  /*deco Arrow for header carousel*/
+}
+/* line 711, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #portal-breadcrumbs {
+  display: none;
+}
+/* line 714, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content-wrapper {
+  background-color: #e6e4de;
+  /*frontpage_bg.png*/
+}
+/* line 720, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content-wrapper .carouselWrapper,
+body.template-slider_frontpage .global-wrapper #content-wrapper .frontpage-content,
+body.template-slider_frontpage .global-wrapper #content-wrapper .FrontpageDescription,
+body.template-slider_frontpage .global-wrapper #content-wrapper .portlet {
+  background: transparent url("../images/frontpage_bg.png") repeat-y scroll center top;
+  padding: 1em;
+}
+/* line 725, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content-wrapper #content {
+  margin-top: 25px;
+}
+/* line 730, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #portal-column-one,
+body.template-slider_frontpage .global-wrapper #portal-column-two {
+  margin-top: 25px;
+}
+/* line 735, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #carousel-deco {
+  background-color: transparent;
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+}
+/* line 743, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #carousel-deco .deco-content {
+  width: 72px;
+  height: 36px;
+  /*deco-arrow.png*/
+  background: transparent url("../images/deco-arrow.png") no-repeat scroll center top;
+  position: relative;
+  left: -50%;
+}
+/* line 756, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content .sliding_frontpage h1.FrontpageHeading {
+  border: 0 none transparent;
+  height: 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1em;
+  color: #707070;
+  font-family: "Open Sans", Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+/* line 772, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content .sliding_frontpage .FrontpageDescription {
+  border-top: 1px solid #E9E9E9;
+  margin-top: 0;
+  padding-top: 12px;
+}
+/* line 778, ../sass/screen.scss */
+body.template-slider_frontpage .global-wrapper #content .sliding_frontpage .frontpage-content {
+  margin-top: 15px;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <rules
+        xmlns="http://namespaces.plone.org/diazo"
+        xmlns:css="http://namespaces.plone.org/diazo/css"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+
+        <!-- Rules applying to standard Plone pages -->
+        <rules css:if-content="#visual-portal-wrapper">
+            <theme href="index.html" />
+            
+            <!-- Clean Theme Header -->
+            <drop theme="/html/head/base" />
+            <drop theme="/html/head/title" />
+            <drop theme="/html/head/style" /> 
+            <!--<drop theme="/html/head/comment()" /> -->
+
+
+            <!-- copy Header Data in Template -->
+            <after
+                content="/html/head/title | /html/head/base | /html/head/style | /html/head/script | /html/head/link[not(@title='deactivate')] | /html/head/meta[not(@name='viewport')]"
+                theme='/html/head/meta[@name="viewport"]'/>
+
+            <!-- copy body attributes -->
+            <copy
+                attributes="class id dir"
+                content="/html/body"
+                theme="/html/body"
+            />
+            
+            
+            <!-- Replace Logo with logo in Plone -->
+            <replace
+                css:content="#portal-logo"
+                css:theme-children=".logo"
+            />
+            <!-- Replace globalnav -->
+            <replace
+                css:content="#portal-globalnav"
+                css:theme-children="nav.globalnav"
+            />
+            <!-- Header / Carousel Mapping -->
+            <drop css:content=".carouselWrapper .lastCarousel"/>
+            <drop css:content="#portal-content-header"/>
+            <!-- Hide carousel in viewlet above content, when frontpage view activated-->
+            <drop 
+                css:content="#viewlet-above-content .carouselWrapper"
+                css:if-content="body.template-slider_frontpage" />
+            
+            <replace
+                css:content="#content .carouselWrapper .lastCarousel"
+                css:theme-children=".headercarousel .carouselWrapper"
+                method="raw"
+                css:if-content=".carouselWrapper"/>
+            <replace
+                css:content="#portal-content-header"
+                css:theme="#header_wrap"
+                method="raw"/>
+                
+            <!-- Document Content -->
+            <copy
+                css:content-children="#portal-columns"
+                css:theme="#portal-columns"
+            />
+
+            <!-- Personal Tools -->
+            <replace
+                css:content="#portal-personaltools-wrapper"
+                css:theme="#portal-personaltools-wrapper"
+            />
+
+            <!-- Language Selector -->
+            <replace
+                css:content-children="#portal-languageselector"
+                css:theme-children=".portal-languageselector"
+            />
+            <!-- Doormat Footer -->       
+            <replace
+                css:content="#doormat-container"
+                css:theme="#doormat-container"
+            />
+            <!-- include topnavi -->
+            <replace
+                css:content=".topnavi-viewlet"
+                css:theme=".customnav"
+            />
+
+            <!-- script for google analytics -->
+            <append
+            css:content="#visual-portal-wrapper > div.row > script"
+            css:theme=".global-wrapper"
+            />
+
+            <drop css:content="#portal-breadcrumbs" />
+            <after css:content="#portal-top #portal-breadcrumbs"
+                css:theme=".global-header"
+                method="raw" />
+            
+            
+           
+        </rules>
+
+    </rules>
