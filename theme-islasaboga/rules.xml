@@ -49,7 +49,7 @@
                 css:if-content="body.template-slider_frontpage" />
             
             <replace
-                css:content="#content .carouselWrapper .lastCarousel"
+                css:content="#viewlet-above-content .carouselWrapper .lastCarousel"
                 css:theme-children=".headercarousel .carouselWrapper"
                 method="raw"
                 css:if-content=".carouselWrapper"/>
