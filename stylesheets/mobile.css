@@ -1,0 +1,507 @@
+@media (min-width: 1200px){
+    body {
+        width: 100%;
+        min-width: 0;
+    }
+    .global-wrapper {
+        width: 100%
+    }
+    .global-wrapper .global-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .global-wrapper .global-header .headercarousel{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper {
+        width: 86%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo{
+        width: 0%;
+    }
+    .global-wrapper .global-header .header-wrapper .globalnav {
+        right: 0;
+        width: auto;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+        right: 0;
+    }
+    .global-wrapper .global-header .headercarousel #portal-content-header img {
+        height: 316px !important;
+    }
+    .global-wrapper .global-header .header-wrapper #portal-globalnav {
+        width: 100%;
+    }
+    #edit-bar, #content ul.formTabs, #content-core ul.formTabs {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text{
+        padding-right: 2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+        width: 48%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+        width: 48%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+        height: 337px;
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo #portal-logo img{
+        margin-left: 0 auto;
+    }
+    .tileBody .description{
+        width: 100%;
+    }
+    .global-wrapper #content .visualIEFloatFix{
+        width: 100%;
+    }
+    #colophon .copyright span{
+        width: 100%;
+    }
+    #content .listing-summary dt{
+        width: 20%;   
+    }
+    #content .listing-summary dd{
+        width: 75%;
+        margin:0;
+    }
+}
+@media (min-width: 980px) and (max-width:1199px){
+    body {
+        width: 100%;
+        min-width: 0;
+    }
+    .global-wrapper {
+        width: 100%
+    }
+    .global-wrapper .global-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .global-wrapper .global-header .headercarousel{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper {
+        width: 86%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo{
+        width: 0%;
+    }
+    .global-wrapper .global-header .header-wrapper .globalnav {
+        right: 0;
+        width: auto;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+        width: auto;
+    }
+    .global-wrapper .global-header .headercarousel #portal-content-header img {
+        height: 316px !important;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li {
+        max-width: 12%;
+    }
+    .global-wrapper .global-header .header-wrapper #portal-globalnav {
+        width: 100%;
+    }
+    #edit-bar, #content ul.formTabs, #content-core ul.formTabs {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text{
+        padding-right: 2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+        width: 48%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+        width: 48%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+        height: 337px;
+        width: 1200px;
+    }
+    .global-wrapper #content-wrapper #portal-columns{
+        width: 80%;    
+    }
+    .global-wrapper footer #footer, .global-wrapper .footer-wrapper #footer{
+        width: 80%;
+    }
+    .global-wrapper footer #doormat-container.columns-5 .doormatColumn, .global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn {
+        width: 46%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo #portal-logo img{
+        margin-left: 15%;
+    }
+    .tileBody .description{
+        width: 100%;
+    }
+    .global-wrapper #content .visualIEFloatFix{
+        width: 100%;
+    }
+    #colophon .copyright span{
+        width: 100%;
+    }
+    #content .listing-summary dt{
+        width: 20%;   
+    }
+    #content .listing-summary dd{
+        width: 75%;
+        margin:0;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px){
+    body {
+        width: 100%;
+        min-width: 0;
+    }
+    .global-wrapper {
+        width: 100%
+    }
+    .global-wrapper .global-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .global-wrapper .global-header .headercarousel{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper {
+        width: 86%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo{
+        width: 0%;
+    }
+    .global-wrapper .global-header .header-wrapper .globalnav {
+        right: 0;
+        width: auto;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+        width: auto;
+    }
+    .global-wrapper .global-header .headercarousel #portal-content-header img {
+        height: 316px !important;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li {
+        max-width: 12%;
+    }
+    .global-wrapper .global-header .header-wrapper #portal-globalnav {
+        width: auto;
+    }
+    #edit-bar, #content ul.formTabs, #content-core ul.formTabs {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text{
+        padding-right: 2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+        width: 50%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+        width: 65%;
+        margin-left: 12.2%;
+        margin-top: 1.4%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text h3{
+        width: 66%;
+        margin-left: 12.2%;
+    }
+    .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+        height: 337px;
+        width: 1200px;
+    }
+    .global-wrapper #content-wrapper #portal-columns{
+        width: 100%;    
+    }
+    .global-wrapper footer #footer, .global-wrapper .footer-wrapper #footer{
+        width: 100%;
+    }
+    .global-wrapper footer #colophon {
+        width: 100%;
+        margin: 0 auto;
+    } 
+    .global-wrapper footer #doormat-container.columns-5 .doormatColumn, .global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn {
+        margin-left: 8%;
+        width: 33.5%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo #portal-logo img{
+        margin-left: 15%;
+    }
+    .tileBody .description{
+        width: 100%;
+    }
+    .global-wrapper #content .visualIEFloatFix{
+        width: 100%;
+    }
+    #colophon .copyright span{
+        width: 100%;
+    }
+    #content .listing-summary dt{
+        width: 20%;   
+    }
+    #content .listing-summary dd{
+        width: 75%;
+        margin:0;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    body {
+        width: 100%;
+        min-width: 0;
+    }
+    .global-wrapper {
+        width: 100%
+    }
+    .global-wrapper .global-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .global-wrapper .global-header .headercarousel{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper {
+        width: 86%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo{
+        width: 0%;
+    }
+    .global-wrapper .global-header .header-wrapper .globalnav {
+        width: auto;
+        right: 0;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+        width: auto;
+    }
+    .global-wrapper .global-header .headercarousel #portal-content-header img {
+        height: 316px !important;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li {
+        max-width: 12%;
+    }
+    .global-wrapper .global-header .header-wrapper #portal-globalnav {
+        width: auto;
+    }
+    #edit-bar, #content ul.formTabs, #content-core ul.formTabs {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text{
+        padding-right: 2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+        width: 58%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+        width: 70%;
+        margin-left: 12.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text h3{
+        width: 66%;
+        margin-left: 12.2%;
+    }
+    .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+        height: 337px;
+        width: 1200px;
+    }
+    .global-wrapper #content-wrapper #portal-columns{
+        width: 100%;    
+    }
+    .global-wrapper footer #footer, .global-wrapper .footer-wrapper #footer{
+        width: 100%;
+    }
+    .global-wrapper footer #doormat-container.columns-5 .doormatColumn, .global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn {
+        margin-left: 7%;
+        width: 36.5%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo #portal-logo img{
+        margin-left: 15%;
+        display: none;
+    }
+    .tileBody .description{
+        width: 100%;
+    }
+    .global-wrapper #content .visualIEFloatFix{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #colophon .copyright span{
+        width: 100%;
+    }
+    #content .listing-summary dt{
+        width: 20%;   
+    }
+    #content .listing-summary dd{
+        width: 75%;
+        margin:0;
+    }
+}
+@media (max-width: 599px){
+    body {
+        width: 100%;
+        min-width: 0;
+    }
+    .global-wrapper {
+        width: 100%
+    }
+    .global-wrapper .global-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .global-wrapper .global-header .headercarousel{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper {
+        width: 86%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo{
+        width: 0%;
+    }
+    .global-wrapper .global-header .header-wrapper .globalnav {
+        right: 0;
+        width: auto;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper {
+        width: auto;
+    }
+    .global-wrapper .global-header .headercarousel #portal-content-header img {
+        height: 316px !important;
+    }
+    .global-wrapper .global-header .header-wrapper .portal-languageselector-wrapper .portal-languageselector li {
+        max-width: 12%;
+    }
+    .global-wrapper .global-header .header-wrapper #portal-globalnav {
+        width: 100%;
+    }
+    #edit-bar, #content ul.formTabs, #content-core ul.formTabs {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core {
+        width: 100%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text{
+        padding-right: 2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+        width: 50%;
+        margin-left: 1.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+        width: 87%;
+        margin-left: 6.2%;
+    }
+    .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text h3{
+        width: 86%;
+        margin-left: 6.2%;
+    }
+    .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+        height: 337px;
+        width: 1200px;
+    }
+    .global-wrapper #content-wrapper #portal-columns{
+        width: 100%;    
+    }
+    .global-wrapper footer #footer, .global-wrapper .footer-wrapper #footer{
+        width: 100%;
+    }
+    .global-wrapper .global-header .header-wrapper .logo #portal-logo img{
+        display: none;
+    }
+    .global-wrapper footer #doormat-container.columns-5 .doormatColumn, .global-wrapper .footer-wrapper #doormat-container.columns-5 .doormatColumn {
+        margin-left: 7%;
+        width: 33.5%;
+    }
+    .tileBody .description{
+        width: 100%;
+    }
+    .global-wrapper #content .visualIEFloatFix{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #colophon .copyright span{
+        width: 100%;
+        display: block;
+    }
+    .global-wrapper footer #doormat-container, .global-wrapper .footer-wrapper #doormat-container .doormatSection {
+        margin-bottom: 50px;
+    }
+    .global-wrapper footer #doormat-container .doormatSectionBody, .global-wrapper .footer-wrapper #doormat-container .doormatSectionBody {
+        width: 100px;
+    }
+    #content .listing-summary dt{
+        width: 20%;   
+    }
+    #content .listing-summary dd{
+        width: 75%;
+        margin:0;
+    }
+}
+
+.global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img{
+    float: left;
+}
+.global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
+    float: left;
+}
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+    height: 337px;
+}
+.global-wrapper #content {
+    margin:0 auto;
+}
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding {
+    overflow: hidden;
+}
+.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
+    max-width: none;
+}
+#portal-columns .lastCarousel{
+    display:none;
+}
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+    width: 100%;
+}
+/*test*/
+.global-wrapper #content-wrapper #portal-columns {
+    width: 86%;
+}
+.tileFooter {
+    display: none;
+}
+#content img.tileImage {
+    float: left;
+}
+.icons-on .contenttype-news-item {
+    background: none;
+    padding-left: 0 !important;
+}
+#content div.documentByLine {
+    display: none;
+}
+.icons-on .contenttype-folder {
+    background: none;  
+}
+.global-wrapper #content a:link, .global-wrapper dl.portlet a:link, .global-wrapper a.link-plain{
+    padding-left: 0 !important;    
+}
+.global-wrapper footer #footer, .global-wrapper .footer-wrapper #footer {
+    width: 86%;
+}
+.global-wrapper .global-header .header-wrapper #portal-globalnav li.selected, .global-wrapper .global-header .header-wrapper #portal-globalnav li:hover{
+    border: 0;    
+}

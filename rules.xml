@@ -3,9 +3,8 @@
         xmlns="http://namespaces.plone.org/diazo"
         xmlns:css="http://namespaces.plone.org/diazo/css"
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-
-
+            
+        
         <!-- Rules applying to standard Plone pages -->
         <rules css:if-content="#visual-portal-wrapper">
             <theme href="index.html" />
@@ -15,7 +14,6 @@
             <drop theme="/html/head/title" />
             <drop theme="/html/head/style" /> 
             <!--<drop theme="/html/head/comment()" /> -->
-
 
             <!-- copy Header Data in Template -->
             <after
@@ -29,7 +27,7 @@
                 theme="/html/body"
             />
             
-            
+
             <!-- Replace Logo with logo in Plone -->
             <replace
                 css:content="#portal-logo"
@@ -40,8 +38,17 @@
                 css:content="#portal-globalnav"
                 css:theme-children="nav.globalnav"
             />
+            <replace
+                css:content="#featurenavi"
+                css:theme-children="nav.featurednav"
+            />
+            <drop 
+                css:theme="nav.featurednav"
+                css:if-not-content="#featurenavi" 
+            />
             <!-- Header / Carousel Mapping -->
             <drop css:content=".carouselWrapper .lastCarousel"/>
+            <drop css:content=".carouselWrapper .carousel"/>
             <drop css:content="#portal-content-header"/>
             <!-- Hide carousel in viewlet above content, when frontpage view activated-->
             <drop 
@@ -51,6 +58,16 @@
             <replace
                 css:content="#viewlet-above-content .carouselWrapper .lastCarousel"
                 css:theme-children=".headercarousel .carouselWrapper"
+                method="raw"
+                css:if-content=".carouselWrapper"/>
+            <replace
+                css:content="#viewlet-above-content .carouselWrapper .carousel"
+                css:theme-children="#content-wrapper #portal-columns"
+                method="raw"
+                css:if-content=".carouselWrapper"/>
+            <replace
+                css:content="#portal-columns"
+                css:theme-children="#content-wrapper #content-slider"
                 method="raw"
                 css:if-content=".carouselWrapper"/>
             <replace

@@ -35,5 +35,8 @@ $(document).ready(function() {
 });
 /* bind window resize event */
 $(window).resize(function () { 
+    try{
         $('.carousel').resizeCarousel();
+    }
+    catch(err) {}
     });
