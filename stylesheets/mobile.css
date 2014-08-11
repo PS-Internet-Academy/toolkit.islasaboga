@@ -458,9 +458,7 @@
 .global-wrapper #content-wrapper #content #content-core #parent-fieldname-text img:last-of-type{
     float: left;
 }
-.global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
-    height: 337px;
-}
+
 .global-wrapper #content {
     margin:0 auto;
 }
@@ -469,6 +467,7 @@
 }
 .global-wrapper .global-header .headercarousel .carouselWrapper .carousel div.scrollable .items div.itemPadding img {
     max-width: none;
+    height:auto;
 }
 #portal-columns .lastCarousel{
     display:none;

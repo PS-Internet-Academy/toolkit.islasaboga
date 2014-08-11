@@ -8,7 +8,7 @@ $(function () {
     var api,
         ap = true,
         timer = 12000,
-        timer_content = 8000
+        timer_content = 8000;
 
     jQuery.fn.resizeCarousel = function () {
         return this.each(function () {
@@ -87,25 +87,40 @@ $(function () {
     };
 
     // initialize scrollable for header
-    api = $('.global-header div.scrollable')
+    try{
+        api = $('.global-header div.scrollable')
         .scrollable({
             size: 1,
             clickable: false,
             loop: true,
             circular: true,
             speed: 1600
-        })
-        .autoscroll({
+        });
+        
+    }
+    catch(err){
+      //do nothing on error    
+    }
+    try{
+        api = api.autoscroll({
             autoplay: ap,
             steps: 1,
             interval: timer,
             autopause: false
-        })
-        .navigator({
+        });
+    }
+    catch(err){
+        //do nothing on error
+    }
+    try{
+        api = api.navigator({
             api: true
         });
-
+    }
+    catch(err){}
+    
       // initialize scrollable for content
+      /*
       api_content = $('#content div.scrollable')
         .scrollable({
             size: 1,
@@ -123,14 +138,9 @@ $(function () {
         .navigator({
             api: true
         });
-
+     */
 
     $('.carousel').resizeCarousel();
-
-    // Pause on hover
-    if (api) {
-       //$('#content .carousel').hover(api.pause);
-    }
 
     // Show toolBar when hovering over a carousel
     $('.carousel').hover(
