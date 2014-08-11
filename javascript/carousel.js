@@ -3,12 +3,55 @@
 
 jQuery('html').addClass('hideTools');
 
+function init_carousel(timer, ap){
+    // initialize scrollable for header
+    js_loaded= true;
+    try{
+        api = $('.global-header div.scrollable')
+        .scrollable({
+            size: 1,
+            clickable: false,
+            loop: true,
+            circular: true,
+            speed: 1600
+        });
+        
+    }
+    catch(err){
+      //mark the error
+      js_loaded=false;
+    }
+    try{
+        api = api.autoscroll({
+            autoplay: ap,
+            steps: 1,
+            interval: timer,
+            autopause: false
+        });
+    }
+    catch(err){
+        //mark the error
+       js_loaded=false;
+    }
+    try{
+        api = api.navigator({
+            api: true
+        });
+    }
+    catch(err){
+      //mark the error
+      js_loaded=false;
+    }
+    
+}
+
 $(function () {
 
     var api,
         ap = true,
         timer = 12000,
         timer_content = 8000;
+        
 
     jQuery.fn.resizeCarousel = function () {
         return this.each(function () {
@@ -42,22 +85,6 @@ $(function () {
                 );
 
             if ($images.length === 0) {
-                // 'resized.carousel' is a custom trigger that 3rd-party
-                // code can use for binding events to the moment when a
-                // carousel is resized. 'carousel' namespace minimizes
-                // chances of conflicting with any other custom trigger of
-                // the same 'resized' name. In your custom JS code to bind
-                // an event to the moment when a carousel has been
-                // completely loaded and resized use something like this:
-                // $("#my-special-case .carousel")
-                //     .bind('resized.carousel',
-                //           function (event, newheight) {
-                //               the custom handler resized.carousel event
-                //           });
-                // This is helpful if you need to have more than 1
-                // carousel in the same row and want all of them to be the
-                // same height - then you bind resizing function to this
-                // 'resized.carousel' trigger.
 
                 $this.add($carousel)
                     .height(baseHeight)
@@ -87,6 +114,7 @@ $(function () {
     };
 
     // initialize scrollable for header
+    js_loaded= true;
     try{
         api = $('.global-header div.scrollable')
         .scrollable({
@@ -99,7 +127,8 @@ $(function () {
         
     }
     catch(err){
-      //do nothing on error    
+      //mark the error
+      js_loaded=false;
     }
     try{
         api = api.autoscroll({
@@ -110,14 +139,24 @@ $(function () {
         });
     }
     catch(err){
-        //do nothing on error
+        //mark the error
+       js_loaded=false;
     }
     try{
         api = api.navigator({
             api: true
         });
     }
-    catch(err){}
+    catch(err){
+      //mark the error
+      js_loaded=false;
+    }
+    if(js_loaded ===false){
+        // try again if the first attempt had an error
+        $( window ).load(function() {
+         init_carousel(timer, ap);
+      });
+    }
     
       // initialize scrollable for content
       /*
