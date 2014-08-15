@@ -2,6 +2,33 @@
 /*Custom colors*/
 /*Fonts*/
 /* line 28, ../sass/screen.scss */
+
+body #edit-bar{
+    position:relative;
+    }
+    
+#viewlet-above-content .carousel{
+  height:auto;
+}
+body .carousel-pager-item, 
+body .carousel-pager-button-prev, 
+body .carousel-pager-button-next,
+body .carousel-banners .carousel-text{
+
+  background-color:#336699;
+  background-color: rgba(51, 102, 153, 0.5);
+  background: rgba(51, 102, 153, 0.5);
+  color: rgba(51, 102, 153, 0.5);
+ 
+  color: #336699;
+}
+body .carousel-banners .carousel-text{
+    color:#fff;
+    }
+body .carousel-pager-item-active{
+    background-color:#336699;
+    }
+    
 body {
   background-color: white;
   min-width: 960px;
